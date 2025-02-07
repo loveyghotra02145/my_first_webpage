@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Hello, World!</h1>
+
+    <p>Hello, my name is Lovepreet Singh. I started my studies in the current academic year and I am now studying at Capilano University up to the third semester. I am enrolled in the Associate of Science program. While I have Indian origins, I moved to Canada in April of the previous year. In terms of studies, my major area of focus is web development. I have a little bit of understanding of Python programming, some knowledge of HTML, and I am familiar with how to make cheat engines. 
+
+    In one of my classes, I initially struggled with getting very low grades and even failed. However, through hard work and commitment, I gave my best effort and earned a ‘B’ in the morning articular course. This experience taught me the value of dedication and perseverance to excel. 
+
+    In my spare time, I enjoy working with computers, exploring both the software and hardware aspects, and learning about computer registries. I also like participating in online PUBG tournaments. When I’m not gaming, I usually go on long car trips for exploration and adventure. 
+
+    I am fluent in Punjabi, Hindi, and English. My family consists of my parents, my sister, and me, and they have been a great support in my educational journey. Currently, I am searching for a job to gain experience and further develop myself in the field of technology.</p>
+
+    <h2>My Favorite Websites</h2>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+    </ul>
+
+    <h2>My Goals</h2>
+    <ol>
+        <li>Learn HTML and CSS</li>
+        <li>Build web development projects</li>
+        <li>Get a job in the tech industry</li>
+    </ol>
+
+    <h2>My Favorite Image</h2>
+    <img src="image.jpg" alt="A description of the image" width="3840" height="2160">
+
+    <h2>Contact Form</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
